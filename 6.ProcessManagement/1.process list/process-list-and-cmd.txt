@@ -1,0 +1,27 @@
+//to check all the processes run command:-///////// ps -elf
+//this will list all the processes
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+F S UID        PID  PPID  C PRI  NI ADDR SZ WCHAN  STIME TTY          TIME CMD
+4 S root         1     0  0  80   0 - 93292 -      09:37 ?        00:00:01 /sbin/
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+0 S vboxuser  4298  4289  0  80   0 -  5646 wait   12:01 pts/0    00:00:00 bash
+.
+.
+.
+.
+0 S vboxuser  4315  4289  0  80   0 -  5646 wait   12:02 pts/1    00:00:00 bash
+0 R vboxuser  4333  4298 99  80   0 -  1129 -      12:03 pts/0    00:00:07 ./out
+0 R vboxuser  4334  4315  0  80   0 -  9918 -      12:03 pts/1    00:00:00 ps -el
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+here in line no 22 the process status of our ./out is shown
+its pid-4333  and parentpid-4298 is given
+there is a process as pid 4298 bash whic is parent process of ./out

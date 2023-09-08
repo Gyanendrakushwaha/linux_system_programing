@@ -1,0 +1,10 @@
+1. cat /proc/sys/kernel/threads-max  :- this command will give the max no of threads ongoing
+this max no of threads ongoing is stored in file thread-max
+
+2. sudo su :- this cmd allows you to run  a command as root user
+3.type password
+4. cmd:- " echo 7000 > /proc/sys/kernel/threads-max ":- this will set 7000 as the max thread. ( > is redirector operator ),
+5. cat /proc/sys/kernel/threads-max :- now thread-max value will be 7000
+
+cat is used for listing content of some file
+echo is used for listing value of some variable

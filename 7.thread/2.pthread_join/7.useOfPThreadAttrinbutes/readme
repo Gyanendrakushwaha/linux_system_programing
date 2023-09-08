@@ -1,0 +1,9 @@
+1. Declare a variable of type:-  pthread_attr_t myattr;
+2. initialize the attrinbute variable using :- pthread_attr_init(&myattr);
+	although pthread attribute has 3 but for current scenario we need stack-management.
+
+3.call appropriate attribute functions
+4.create pthread using our attribute obj 
+pthread_create(&tid,&myattr,task_func,arg);
+5.destroy the attribute object,finally when task is done
+pthread_destroy(&myattr);

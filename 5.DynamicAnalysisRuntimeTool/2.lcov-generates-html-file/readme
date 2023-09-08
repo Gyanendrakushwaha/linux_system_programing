@@ -1,0 +1,17 @@
+//////////////       lcov ///////////////////
+//first run gcov tool for the program
+1.  gcc -fprofile-arcs -ftest-coverage pog.c -o out
+rhis will create pog.gcno
+
+2.  ./out  -this will create pog.gcda 
+
+3. run:- gcov pog.gcda
+this will give execution status and generate (pog.c.gcov) file
+4. vim pog.c.gcov
+
+////// now to generate the html file we need lcov tool
+1.lcov --capture --directory . --out pog.info
+this will create pog.info file
+
+2. :- genhtml pog.info --output--directory . -o newfile
+this will create newfile as html file

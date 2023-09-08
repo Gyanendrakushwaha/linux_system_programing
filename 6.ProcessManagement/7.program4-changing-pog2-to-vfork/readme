@@ -1,0 +1,3 @@
+diff bw vfork() and fork() 
+1. No duplication of virtual memory pages or page table is done for the child process.Instead the child shares the parent memory until it either performs a successful exec() or calls  _exit(EXIT_SUCCESS) to terminate.
+2.Execution of the parent process is suspended until the child has performed an exec() or _exit(EXIT_SUCCESS).

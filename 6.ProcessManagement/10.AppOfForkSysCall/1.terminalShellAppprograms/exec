@@ -1,0 +1,10 @@
+exec() - when exec system call is invoked the {programm defined in the parameter to  exec() } will replace the entire process.- including all thread
+            the parameter passed to exec() sysytem call will be another program,so when we pass a program as a parameter the programm will replace the entire process 				throw which the new programm called
+            
+            replacing a process with new process , process id remains same.
+            
+2.  execl("/bin/ls","ls","-l",0);    here this will replace the cureent process with new process ( ls )
+								"/bin/ls"is he 1st argument is the location of the program
+								"ls" is the name of process/program
+								"-l" from 3rd argument onwards it will be the options that you want to use
+								0 for null means np more arguments

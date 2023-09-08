@@ -1,0 +1,1 @@
+if child process terminates without indicating parent then this process is zomie process.bcause entry of child process process still exist to the process list.

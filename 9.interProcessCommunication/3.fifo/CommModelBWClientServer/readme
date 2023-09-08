@@ -1,0 +1,9 @@
+update:- 
+open two terminals one for server and another for client
+
+1. vim pog1.c   :- for server
+2. then compile server:- gcc -pog.c -o out1
+
+3. then write code for client:- vim pog2.c
+4.then comp
+

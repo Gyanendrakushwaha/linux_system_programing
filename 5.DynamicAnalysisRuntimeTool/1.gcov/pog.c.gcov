@@ -1,0 +1,13 @@
+        -:    0:Source:pog.c
+        -:    0:Graph:pog.gcno
+        -:    0:Data:pog.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include<stdio.h>
+        -:    2:#include<stdlib.h>
+        -:    3:
+        1:    4:int main(){
+        -:    5:
+        1:    6:printf("this is test code");
+        -:    7:
+        -:    8:}
